@@ -76,8 +76,8 @@ def http_assembler(pcap_file):
             minu  = now.minute
             seg   = now.second
             dataFormatada = str(dia) + "_"+str(mes)+"_"+str(ano)+"_hora_"+str(hora)+"_"+str(minu)+"_"+str(seg)
-            print("\n pic_carver_%s_%d.%s" % (dataFormatada,carved_images,image_type))
-            file_name = "pic_carver_%s_%d.%s" % (dataFormatada,carved_images,image_type)
+            print("\n img_%s_%d.%s" % (dataFormatada,carved_images,image_type))
+            file_name = "img_%s_%d.%s" % (dataFormatada,carved_images,image_type)
             fd = open("%s/%s" %(pictures_directory,file_name),"wb")
             fd.write(image)
             fd.close()
@@ -158,7 +158,7 @@ def iniciaSniffer():
         while True:
 
             print("\n Iniciando a captura de pacote qt =%d" % qtPacote )
-            pkt = sniff(iface = m_iface, count = 100, filter = "")
+            pkt = sniff(iface = m_iface, count = 5000, filter = "")
             print("\n Termino da captura e iniciando a gravacao do pacote ")
             wrpcap(pcap_file,pkt)
             print("\n Leitura do pacote ")

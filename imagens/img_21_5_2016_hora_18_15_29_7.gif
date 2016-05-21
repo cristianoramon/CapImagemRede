@@ -1,0 +1,18 @@
+HTTP/1.1 304 Not Modified
+Server: imagine 1.0.5
+Content-Type: image/jpeg
+ETag: "e4a83bdf2fc494cbb6273d89ee11751f"
+Last-Modified: Mon, 04 May 2015 20:25:35 GMT
+Date: Sat, 21 May 2016 21:18:14 GMT
+X-Varnish: 3031787427 2927010320
+Age: 5449603
+Connection: keep-alive
+Via: cache-varnish
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, HEAD
+Access-Control-Allow-Headers: X-Accept-Charset,X-Accept,Content-Type,Cache-Control,Etag
+Keep-Alive: timeout=20, max=15
+Cache-Control: max-age=86400
+X-Cache: HIT
+

@@ -1,0 +1,18 @@
+HTTP/1.1 304 Not Modified
+Server: Apache
+Last-Modified: Fri, 02 Oct 2015 13:36:48 GMT
+ETag: "1efe-5211f415efc09"
+Content-Type: image/gif
+Date: Sat, 21 May 2016 21:18:14 GMT
+X-Varnish: 4118105910 4027471703
+Age: 10007150
+Connection: keep-alive
+Via: cache-varnish
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, HEAD
+Access-Control-Allow-Headers: X-Accept-Charset,X-Accept,Content-Type,Cache-Control,Etag
+Keep-Alive: timeout=20, max=15
+Cache-Control: max-age=86400
+X-Cache: HIT
+
